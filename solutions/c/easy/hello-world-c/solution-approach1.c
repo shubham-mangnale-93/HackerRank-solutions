@@ -5,7 +5,7 @@
 // Platform    HackerRank
 // Language    c
 // Status      Accepted
-// Submitted   2025-01-21, 10:03 p.m.
+// Submitted   2026-06-04, 12:50 p.m.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
@@ -14,7 +14,7 @@
 
 int main() 
 {
-	
+    
     char s[100];
     scanf("%[^\n]%*c", &s); 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
