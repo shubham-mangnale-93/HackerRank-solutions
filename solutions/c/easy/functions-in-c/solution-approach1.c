@@ -5,7 +5,7 @@
 // Platform    HackerRank
 // Language    c
 // Status      Accepted
-// Submitted   2026-06-09, 01:11 a.m.
+// Submitted   2026-06-09, 01:12 a.m.
 // ──────────────────────────────────────────────────
 
  #include <stdio.h>
