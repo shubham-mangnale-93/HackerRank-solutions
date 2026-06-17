@@ -1,0 +1,36 @@
+# ──────────────────────────────────────────────────
+# Problem     Python If-Else
+# Difficulty  Easy
+# Subdomain   Introduction
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-17, 03:17 p.m.
+# ──────────────────────────────────────────────────
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    
+    # Condition 1: If n is odd, print Weird
+    if n % 2 != 0:
+        print("Weird")
+    else:
+        # Condition 2: If n is even and in the inclusive range of 2 to 5
+        if 2 <= n <= 5:
+            print("Not Weird")
+        # Condition 3: If n is even and in the inclusive range of 6 to 20
+        elif 6 <= n <= 20:
+            print("Weird")
+        # Condition 4: If n is even and greater than 20
+        elif n > 20:
+            print("Not Weird")
